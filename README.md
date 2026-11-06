@@ -14,7 +14,7 @@ This folder contains everything needed to check and reproduce the results in the
 
 | Folder or file | What it is |
 |---|---|
-| `paper/73706_PalamoottilBiju_CivicLens_SRC.pdf` | The submitted paper |
+| `paper/73706_Palamoottil Biju_CivicLens_SRC.pdf` | The submitted paper |
 | `code/civiclens_experiment.py` | The main experiment (script version 3, as executed; only the header comment was corrected from "version 2" to "version 3") |
 | `code/posthoc_analysis.py` | Re-creates the analyses done after the main run, from the saved outputs |
 | `code/make_paper_figures.py` | Re-creates Figures 2 and 3 of the paper from the saved outputs |
@@ -27,7 +27,7 @@ This folder contains everything needed to check and reproduce the results in the
 
 1. Open `code/CivicLens_reproduce.ipynb` in Google Colab: **File → Upload notebook**.
 2. Set **Runtime → Change runtime type → T4 GPU**. A GPU is only needed to make the MiniLM encoding fast (about 1 minute instead of about 30); everything else runs on the CPU.
-3. **To use the exact data file**, put it at the top of your Google Drive (*My Drive*) as `CivicLens_Open311.csv` (see `data/DATA.md`). Otherwise the notebook downloads the current portal file, which is newer and gives slightly different numbers.
+3. The notebook downloads the dataset from the portal into your Google Drive as `CivicLens_Open311.csv` and prints its checksum. A new download is usually newer than the paper's snapshot, so the numbers may differ slightly (see `data/DATA.md`).
 4. Click **Runtime → Run all**, and allow Google Drive access when asked. Progress is saved to Drive, so if Colab disconnects, just run all the cells again and the run continues.
 5. At the end, `civiclens_results.zip` downloads automatically.
 
@@ -44,7 +44,7 @@ python code/make_paper_figures.py --results results --out results/paper_figures
 See `data/DATA.md`. In short:
 - **Source:** City of Bloomington (Indiana) Open311, dataset `aw6y-t4ix`.
 - **Licence:** PDDL 1.0 (public domain).
-- **Copy:** for privacy, the file is not republished here (see Section 7). The author keeps the exact file and can share it on request; the checksum lets anyone verify it.
+- **Copy:** the file is not redistributed here because it contains personal information (see Section 7). Download it from the portal and verify it with the checksum.
 - **File:** the exact file used has SHA-256 `802e12249d4e088f3efc813378dd9e1fe126733945ccc2c1b1f814eb1354cc97`. The script records the checksum of whatever file it reads in `results/run_info.json`.
 
 ## 4. Where each number in the paper comes from

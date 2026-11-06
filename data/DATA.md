@@ -24,9 +24,17 @@
 | Rows | 130,228 (67 categories, 0 missing labels, 9,301 empty descriptions) |
 | SHA-256 | `802e12249d4e088f3efc813378dd9e1fe126733945ccc2c1b1f814eb1354cc97` |
 
-**The exact file is not included here, for privacy.** Some descriptions contain names, addresses, e-mail addresses or phone numbers written by citizens, so the texts are not republished in this repository. The author keeps the exact file (`CivicLens_Open311.csv`, the SHA-256 above) and can share it on request.
+## Data privacy and access
 
-The portal is updated daily, so a new download will usually be **newer** and have a different checksum and slightly different counts. To reproduce the exact numbers in the paper, use the original file and check it with:
+The original dataset was obtained from the City of Bloomington Open Data portal (link above). A local snapshot was retained for reproducibility and is identified by its SHA-256 checksum (table above).
+
+The original dataset is not redistributed in this repository because it contains personal information, including report descriptions and location-related information.
+
+Researchers can obtain the source dataset directly from the original provider, verify the downloaded snapshot using the published checksum, and reproduce the analysis using the supplied scripts and instructions. Note that the portal is updated daily, so a new download will usually be newer than the snapshot used in the paper, with a different checksum and slightly different counts.
+
+Released prediction files contain anonymous group identifiers rather than original citizen report text.
+
+Check a downloaded file with:
 
 ```
 sha256sum CivicLens_Open311.csv      # Linux / Colab
