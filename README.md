@@ -14,7 +14,7 @@ This folder contains everything needed to check and reproduce the results in the
 
 | Folder or file | What it is |
 |---|---|
-| `paper/73706_Palamoottil Biju_CivicLens_SRC.pdf` | The submitted paper |
+| `paper/73706_Palamoottil_Biju_CivicLens_SRC.pdf` | The submitted paper |
 | `code/civiclens_experiment.py` | The main experiment (script version 3, as executed; only the header comment was corrected from "version 2" to "version 3") |
 | `code/posthoc_analysis.py` | Re-creates the analyses done after the main run, from the saved outputs |
 | `code/make_paper_figures.py` | Re-creates Figures 2 and 3 of the paper from the saved outputs |
