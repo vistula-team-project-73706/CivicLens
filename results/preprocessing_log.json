@@ -1,0 +1,30 @@
+{
+  "after_removing_empty_text": 120917,
+  "removed_text_equals_label": 124,
+  "removed_texts_with_tied_labels": 319,
+  "unique_texts_with_more_than_one_label": 657,
+  "rows_removed_by_deduplication": 41293,
+  "categories_merged_into_Other": [
+    "Crow Sightings",
+    "Food Truck Issues",
+    "GIS Issue",
+    "Illicit Discharge (Storm Sewers)",
+    "Open311 API Key Request",
+    "Public Art Maintenance",
+    "Report issues with BIRD scooters",
+    "Report issues with Lime scooters",
+    "Report issues with Veo Scooters",
+    "Smoking Violation",
+    "Taxi Complaints"
+  ],
+  "rows_relabelled_Other": 174,
+  "final_rows": 79500,
+  "final_categories": 56,
+  "near_duplicate_groups": 72412,
+  "largest_group": 331,
+  "rows_in_multi_row_groups": 9616,
+  "train_rows": 63576,
+  "test_rows": 15924,
+  "test_share": 0.2003,
+  "categories_missing_from_test": []
+}

@@ -1,0 +1,60 @@
+,precision,recall,f1-score,support
+Abandoned Vehicle,0.0,0.0,0.0,105.0
+Accessibility Problem,0.0,0.0,0.0,22.0
+Animal Control & Neglected Pets,0.0,0.0,0.0,187.0
+Biking & Walking,0.0,0.0,0.0,156.0
+Blocked Sidewalk,0.0,0.0,0.0,314.0
+Blocked Street,0.0,0.0,0.0,281.0
+Bus Services (Bloomington Transit),0.0,0.0,0.0,16.0
+Business,0.0,0.0,0.0,49.0
+City Construction Projects,0.0,0.0,0.0,62.0
+City Performance,0.0,0.0,0.0,181.0
+"Debris Removal (Sand, General Street Debris)",0.0,0.0,0.0,178.0
+Drainage or Runoff,0.0,0.0,0.0,115.0
+Excessive Growth,0.0,0.0,0.0,1507.0
+Fire Hazards,0.0,0.0,0.0,59.0
+Graffiti,0.0,0.0,0.0,169.0
+Inaccessible Parking,0.0,0.0,0.0,31.0
+Leaf Collection,0.0,0.0,0.0,22.0
+Line of Sight,0.0,0.0,0.0,187.0
+Nuisance Lights,0.0,0.0,0.0,53.0
+Other,0.0,0.0,0.0,932.0
+Parking Garages,0.0,0.0,0.0,8.0
+Parking Meters and Citations,0.0,0.0,0.0,122.0
+Parking Permits,0.0,0.0,0.0,35.0
+Parking on Unimproved Surface,0.0,0.0,0.0,235.0
+Parks & Playgrounds,0.0,0.0,0.0,313.0
+Parks & Rec Buildings,0.0,0.0,0.0,38.0
+Parks & Rec Programs,0.0,0.0,0.0,36.0
+"Potholes, Other Street Repair",0.0,0.0,0.0,1358.0
+Recycling,0.0,0.0,0.0,832.0
+Request a new Street Light,0.0,0.0,0.0,31.0
+"Scooters, Bike-share and Related Issues",0.0,0.0,0.0,45.0
+Sewer Problems (Sanitary Sewers),0.0,0.0,0.0,246.0
+Sewer Problems (Storm Sewers),0.0,0.0,0.0,104.0
+Sidewalk & Curb Complaints,0.0,0.0,0.0,259.0
+Sidewalk Requests,0.0,0.0,0.0,58.0
+Sidewalk Snow Removal,0.0,0.0,0.0,348.0
+Street & Traffic Signs,0.0,0.0,0.0,202.0
+Street Lights,0.0,0.0,0.0,386.0
+Street Snow Removal,0.0,0.0,0.0,187.0
+Street Trees,0.0,0.0,0.0,120.0
+Temporary Signage w/o permit,0.0,0.0,0.0,502.0
+Traffic Related Complaints,0.0,0.0,0.0,257.0
+Traffic Signals,0.0,0.0,0.0,233.0
+Traffic Suggestions,0.0,0.0,0.0,116.0
+Trails,0.0,0.0,0.0,220.0
+Trash,0.2313,1.0,0.3758,3684.0
+Unsafe Buildings,0.0,0.0,0.0,127.0
+Utilities Construction,0.0,0.0,0.0,24.0
+Utilities Yardwork,0.0,0.0,0.0,10.0
+Utility Construction Projects,0.0,0.0,0.0,25.0
+Water Quality,0.0,0.0,0.0,172.0
+Water Utility Billing Problems,0.0,0.0,0.0,71.0
+Water Utility Problems,0.0,0.0,0.0,349.0
+Website & Web Services Feedback,0.0,0.0,0.0,151.0
+Wildlife Conflict,0.0,0.0,0.0,27.0
+Yard Waste,0.0,0.0,0.0,367.0
+accuracy,0.2313,0.2313,0.2313,0.2313
+macro avg,0.0041,0.0179,0.0067,15924.0
+weighted avg,0.0535,0.2313,0.0869,15924.0

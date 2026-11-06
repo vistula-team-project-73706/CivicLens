@@ -1,0 +1,12 @@
+comparison,delta_macro_f1,ci_low,ci_high,p
+TF-IDF + NB: balanced - unweighted,0.0346,0.0222,0.0468,0.0
+TF-IDF + LogReg: balanced - unweighted,0.038,0.0268,0.0497,0.0
+TF-IDF + LinearSVM: balanced - unweighted,0.0119,0.0022,0.0233,0.021
+MiniLM + LogReg: balanced - unweighted,-0.0329,-0.0438,-0.0205,0.0
+TF-IDF + LogReg (balanced) - TF-IDF + LinearSVM (balanced),0.0018,-0.0064,0.009,0.689
+TF-IDF + LogReg (balanced) - TF-IDF + LinearSVM,0.0137,0.004,0.0246,0.003
+TF-IDF + LogReg (balanced) - MiniLM + LogReg,0.0224,0.0095,0.036,0.001
+TF-IDF + LogReg (balanced) - TF-IDF + LogReg,0.038,0.0268,0.0497,0.0
+TF-IDF + LogReg (balanced) - TF-IDF + NB (balanced),0.0412,0.0299,0.0524,0.0
+TF-IDF + LogReg (balanced) - MiniLM + LogReg (balanced),0.0553,0.0432,0.0669,0.0
+TF-IDF + LogReg (balanced) - TF-IDF + NB,0.0759,0.0636,0.0876,0.0

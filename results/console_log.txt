@@ -1,0 +1,203 @@
+{
+  "after_removing_empty_text": 120917,
+  "removed_text_equals_label": 124,
+  "removed_texts_with_tied_labels": 319,
+  "unique_texts_with_more_than_one_label": 657,
+  "rows_removed_by_deduplication": 41293,
+  "categories_merged_into_Other": [
+    "Crow Sightings",
+    "Food Truck Issues",
+    "GIS Issue",
+    "Illicit Discharge (Storm Sewers)",
+    "Open311 API Key Request",
+    "Public Art Maintenance",
+    "Report issues with BIRD scooters",
+    "Report issues with Lime scooters",
+    "Report issues with Veo Scooters",
+    "Smoking Violation",
+    "Taxi Complaints"
+  ],
+  "rows_relabelled_Other": 174,
+  "final_rows": 79500,
+  "final_categories": 56,
+  "near_duplicate_groups": 72412,
+  "largest_group": 331,
+  "rows_in_multi_row_groups": 9616,
+  "train_rows": 63576,
+  "test_rows": 15924,
+  "test_share": 0.2003,
+  "categories_missing_from_test": []
+}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 6196.05it/s]
+Batches:   0%|          | 0/497 [00:00<?, ?it/s]Batches:   0%|          | 1/497 [00:01<09:45,  1.18s/it]Batches:   0%|          | 2/497 [00:01<05:48,  1.42it/s]Batches:   1%|          | 3/497 [00:01<04:45,  1.73it/s]Batches:   1%|          | 4/497 [00:02<05:05,  1.62it/s]Batches:   1%|          | 5/497 [00:03<05:29,  1.49it/s]Batches:   1%|          | 6/497 [00:04<05:31,  1.48it/s]Batches:   1%|▏         | 7/497 [00:04<05:41,  1.43it/s]Batches:   2%|▏         | 8/497 [00:05<05:20,  1.53it/s]Batches:   2%|▏         | 9/497 [00:06<05:12,  1.56it/s]Batches:   2%|▏         | 10/497 [00:06<05:59,  1.35it/s]Batches:   2%|▏         | 11/497 [00:07<06:14,  1.30it/s]Batches:   2%|▏         | 12/497 [00:08<06:34,  1.23it/s]Batches:   3%|▎         | 13/497 [00:09<06:50,  1.18it/s]Batches:   3%|▎         | 14/497 [00:10<06:35,  1.22it/s]Batches:   3%|▎         | 15/497 [00:11<06:27,  1.24it/s]Batches:   3%|▎         | 16/497 [00:11<06:10,  1.30it/s]Batches:   3%|▎         | 17/497 [00:12<05:21,  1.49it/s]Batches:   4%|▎         | 18/497 [00:12<04:16,  1.87it/s]Batches:   4%|▍         | 19/497 [00:12<03:28,  2.29it/s]Batches:   4%|▍         | 20/497 [00:12<02:55,  2.72it/s]Batches:   4%|▍         | 21/497 [00:13<02:30,  3.15it/s]Batches:   4%|▍         | 22/497 [00:13<02:13,  3.55it/s]Batches:   5%|▍         | 23/497 [00:13<01:59,  3.97it/s]Batches:   5%|▍         | 24/497 [00:13<01:49,  4.32it/s]Batches:   5%|▌         | 25/497 [00:13<01:40,  4.68it/s]Batches:   5%|▌         | 26/497 [00:14<01:39,  4.72it/s]Batches:   5%|▌         | 27/497 [00:14<01:31,  5.11it/s]Batches:   6%|▌         | 28/497 [00:14<01:26,  5.42it/s]Batches:   6%|▌         | 29/497 [00:14<01:23,  5.58it/s]Batches:   6%|▌         | 30/497 [00:14<01:20,  5.82it/s]Batches:   6%|▌         | 31/497 [00:14<01:24,  5.52it/s]Batches:   6%|▋         | 32/497 [00:15<01:21,  5.67it/s]Batches:   7%|▋         | 33/497 [00:15<01:17,  5.98it/s]Batches:   7%|▋         | 34/497 [00:15<01:14,  6.21it/s]Batches:   7%|▋         | 35/497 [00:15<01:12,  6.41it/s]Batches:   7%|▋         | 36/497 [00:15<01:52,  4.10it/s]Batches:   7%|▋         | 37/497 [00:16<01:39,  4.62it/s]Batches:   8%|▊         | 38/497 [00:16<01:30,  5.08it/s]Batches:   8%|▊         | 39/497 [00:16<01:22,  5.58it/s]Batches:   8%|▊         | 40/497 [00:16<01:16,  6.01it/s]Batches:   8%|▊         | 41/497 [00:16<01:12,  6.29it/s]Batches:   8%|▊         | 42/497 [00:16<01:09,  6.58it/s]Batches:   9%|▊         | 43/497 [00:16<01:04,  7.01it/s]Batches:   9%|▉         | 44/497 [00:17<01:02,  7.29it/s]Batches:   9%|▉         | 45/497 [00:17<01:01,  7.38it/s]Batches:   9%|▉         | 46/497 [00:17<00:58,  7.68it/s]Batches:   9%|▉         | 47/497 [00:17<00:59,  7.57it/s]Batches:  10%|▉         | 48/497 [00:17<00:58,  7.71it/s]Batches:  10%|▉         | 49/497 [00:17<00:56,  7.92it/s]Batches:  10%|█         | 50/497 [00:17<00:54,  8.20it/s]Batches:  10%|█         | 51/497 [00:17<00:53,  8.31it/s]Batches:  10%|█         | 52/497 [00:18<00:53,  8.31it/s]Batches:  11%|█         | 53/497 [00:18<00:55,  7.97it/s]Batches:  11%|█         | 54/497 [00:18<00:54,  8.19it/s]Batches:  11%|█         | 55/497 [00:18<00:53,  8.32it/s]Batches:  11%|█▏        | 56/497 [00:18<00:51,  8.55it/s]Batches:  11%|█▏        | 57/497 [00:18<00:49,  8.82it/s]Batches:  12%|█▏        | 58/497 [00:18<00:51,  8.49it/s]Batches:  12%|█▏        | 59/497 [00:18<00:54,  8.01it/s]Batches:  12%|█▏        | 60/497 [00:19<00:52,  8.34it/s]Batches:  12%|█▏        | 61/497 [00:19<00:50,  8.62it/s]Batches:  12%|█▏        | 62/497 [00:19<00:51,  8.52it/s]Batches:  13%|█▎        | 63/497 [00:19<00:49,  8.85it/s]Batches:  13%|█▎        | 64/497 [00:19<00:47,  9.16it/s]Batches:  13%|█▎        | 65/497 [00:19<00:46,  9.27it/s]Batches:  13%|█▎        | 66/497 [00:19<00:46,  9.33it/s]Batches:  13%|█▎        | 67/497 [00:19<00:45,  9.39it/s]Batches:  14%|█▍        | 69/497 [00:19<00:43,  9.81it/s]Batches:  14%|█▍        | 71/497 [00:20<00:42, 10.08it/s]Batches:  14%|█▍        | 72/497 [00:20<00:42, 10.06it/s]Batches:  15%|█▍        | 73/497 [00:20<00:42, 10.04it/s]Batches:  15%|█▌        | 75/497 [00:20<00:41, 10.24it/s]Batches:  15%|█▌        | 77/497 [00:20<00:40, 10.44it/s]Batches:  16%|█▌        | 79/497 [00:20<00:39, 10.63it/s]Batches:  16%|█▋        | 81/497 [00:21<00:38, 10.80it/s]Batches:  17%|█▋        | 83/497 [00:21<00:37, 10.97it/s]Batches:  17%|█▋        | 85/497 [00:21<00:37, 11.04it/s]Batches:  18%|█▊        | 87/497 [00:21<00:36, 11.21it/s]Batches:  18%|█▊        | 89/497 [00:21<00:37, 10.93it/s]Batches:  18%|█▊        | 91/497 [00:22<00:38, 10.43it/s]Batches:  19%|█▊        | 93/497 [00:22<00:44,  9.01it/s]Batches:  19%|█▉        | 94/497 [00:22<00:45,  8.94it/s]Batches:  19%|█▉        | 95/497 [00:22<00:44,  8.97it/s]Batches:  20%|█▉        | 97/497 [00:22<00:43,  9.27it/s]Batches:  20%|█▉        | 98/497 [00:22<00:42,  9.37it/s]Batches:  20%|█▉        | 99/497 [00:22<00:42,  9.40it/s]Batches:  20%|██        | 100/497 [00:23<00:43,  9.22it/s]Batches:  20%|██        | 101/497 [00:23<00:43,  9.15it/s]Batches:  21%|██        | 102/497 [00:23<00:42,  9.26it/s]Batches:  21%|██        | 104/497 [00:23<00:42,  9.35it/s]Batches:  21%|██▏       | 106/497 [00:23<00:40,  9.73it/s]Batches:  22%|██▏       | 107/497 [00:23<00:40,  9.72it/s]Batches:  22%|██▏       | 108/497 [00:23<00:39,  9.73it/s]Batches:  22%|██▏       | 109/497 [00:23<00:40,  9.49it/s]Batches:  22%|██▏       | 110/497 [00:24<00:41,  9.35it/s]Batches:  23%|██▎       | 112/497 [00:24<00:39,  9.72it/s]Batches:  23%|██▎       | 113/497 [00:24<00:39,  9.61it/s]Batches:  23%|██▎       | 115/497 [00:24<00:38,  9.81it/s]Batches:  24%|██▎       | 117/497 [00:24<00:38,  9.87it/s]Batches:  24%|██▍       | 119/497 [00:24<00:37, 10.10it/s]Batches:  24%|██▍       | 121/497 [00:25<00:37, 10.10it/s]Batches:  25%|██▍       | 123/497 [00:25<00:36, 10.34it/s]Batches:  25%|██▌       | 125/497 [00:25<00:35, 10.52it/s]Batches:  26%|██▌       | 127/497 [00:25<00:35, 10.43it/s]Batches:  26%|██▌       | 129/497 [00:25<00:34, 10.56it/s]Batches:  26%|██▋       | 131/497 [00:26<00:34, 10.67it/s]Batches:  27%|██▋       | 133/497 [00:26<00:33, 10.86it/s]Batches:  27%|██▋       | 135/497 [00:26<00:32, 11.04it/s]Batches:  28%|██▊       | 137/497 [00:26<00:32, 11.19it/s]Batches:  28%|██▊       | 139/497 [00:26<00:32, 11.16it/s]Batches:  28%|██▊       | 141/497 [00:26<00:31, 11.43it/s]Batches:  29%|██▉       | 143/497 [00:27<00:28, 12.61it/s]Batches:  29%|██▉       | 145/497 [00:27<00:25, 13.68it/s]Batches:  30%|██▉       | 147/497 [00:27<00:24, 14.48it/s]Batches:  30%|██▉       | 149/497 [00:27<00:23, 15.08it/s]Batches:  30%|███       | 151/497 [00:27<00:22, 15.59it/s]Batches:  31%|███       | 153/497 [00:27<00:21, 15.89it/s]Batches:  31%|███       | 155/497 [00:27<00:21, 16.07it/s]Batches:  32%|███▏      | 157/497 [00:27<00:20, 16.36it/s]Batches:  32%|███▏      | 159/497 [00:28<00:20, 16.85it/s]Batches:  32%|███▏      | 161/497 [00:28<00:19, 17.09it/s]Batches:  33%|███▎      | 163/497 [00:28<00:19, 17.42it/s]Batches:  33%|███▎      | 165/497 [00:28<00:18, 17.59it/s]Batches:  34%|███▎      | 167/497 [00:28<00:18, 17.64it/s]Batches:  34%|███▍      | 169/497 [00:28<00:18, 17.88it/s]Batches:  34%|███▍      | 171/497 [00:28<00:17, 18.16it/s]Batches:  35%|███▍      | 173/497 [00:28<00:17, 18.40it/s]Batches:  35%|███▌      | 175/497 [00:28<00:17, 18.40it/s]Batches:  36%|███▌      | 177/497 [00:29<00:17, 18.57it/s]Batches:  36%|███▌      | 179/497 [00:29<00:17, 18.54it/s]Batches:  37%|███▋      | 182/497 [00:29<00:16, 19.08it/s]Batches:  37%|███▋      | 184/497 [00:29<00:16, 19.26it/s]Batches:  38%|███▊      | 187/497 [00:29<00:15, 19.64it/s]Batches:  38%|███▊      | 189/497 [00:29<00:15, 19.59it/s]Batches:  39%|███▊      | 192/497 [00:29<00:15, 19.72it/s]Batches:  39%|███▉      | 195/497 [00:29<00:15, 19.81it/s]Batches:  40%|███▉      | 198/497 [00:30<00:15, 19.86it/s]Batches:  40%|████      | 201/497 [00:30<00:14, 20.09it/s]Batches:  41%|████      | 204/497 [00:30<00:14, 20.50it/s]Batches:  42%|████▏     | 207/497 [00:30<00:13, 20.98it/s]Batches:  42%|████▏     | 210/497 [00:30<00:13, 21.07it/s]Batches:  43%|████▎     | 213/497 [00:30<00:13, 21.26it/s]Batches:  43%|████▎     | 216/497 [00:30<00:12, 21.72it/s]Batches:  44%|████▍     | 219/497 [00:31<00:13, 21.32it/s]Batches:  45%|████▍     | 222/497 [00:31<00:12, 21.78it/s]Batches:  45%|████▌     | 225/497 [00:31<00:12, 21.93it/s]Batches:  46%|████▌     | 228/497 [00:31<00:12, 22.14it/s]Batches:  46%|████▋     | 231/497 [00:31<00:11, 22.79it/s]Batches:  47%|████▋     | 234/497 [00:31<00:11, 23.11it/s]Batches:  48%|████▊     | 237/497 [00:31<00:11, 23.20it/s]Batches:  48%|████▊     | 240/497 [00:31<00:11, 23.34it/s]Batches:  49%|████▉     | 243/497 [00:32<00:11, 22.71it/s]Batches:  49%|████▉     | 246/497 [00:32<00:10, 23.20it/s]Batches:  50%|█████     | 249/497 [00:32<00:10, 23.72it/s]Batches:  51%|█████     | 252/497 [00:32<00:10, 24.05it/s]Batches:  51%|█████▏    | 255/497 [00:32<00:09, 24.34it/s]Batches:  52%|█████▏    | 258/497 [00:32<00:09, 24.64it/s]Batches:  53%|█████▎    | 261/497 [00:32<00:09, 25.43it/s]Batches:  53%|█████▎    | 264/497 [00:32<00:09, 25.30it/s]Batches:  54%|█████▎    | 267/497 [00:33<00:09, 24.75it/s]Batches:  54%|█████▍    | 270/497 [00:33<00:09, 25.20it/s]Batches:  55%|█████▍    | 273/497 [00:33<00:08, 25.13it/s]Batches:  56%|█████▌    | 276/497 [00:33<00:08, 25.71it/s]Batches:  56%|█████▌    | 279/497 [00:33<00:08, 26.01it/s]Batches:  57%|█████▋    | 282/497 [00:33<00:08, 25.94it/s]Batches:  57%|█████▋    | 285/497 [00:33<00:08, 26.28it/s]Batches:  58%|█████▊    | 288/497 [00:33<00:08, 25.95it/s]Batches:  59%|█████▊    | 291/497 [00:33<00:07, 26.04it/s]Batches:  59%|█████▉    | 294/497 [00:34<00:07, 26.34it/s]Batches:  60%|█████▉    | 297/497 [00:34<00:07, 26.95it/s]Batches:  60%|██████    | 300/497 [00:34<00:07, 27.25it/s]Batches:  61%|██████    | 303/497 [00:34<00:06, 27.89it/s]Batches:  62%|██████▏   | 306/497 [00:34<00:06, 28.10it/s]Batches:  62%|██████▏   | 310/497 [00:34<00:06, 29.04it/s]Batches:  63%|██████▎   | 313/497 [00:34<00:06, 28.28it/s]Batches:  64%|██████▎   | 316/497 [00:34<00:06, 27.32it/s]Batches:  64%|██████▍   | 319/497 [00:34<00:06, 28.01it/s]Batches:  65%|██████▍   | 323/497 [00:35<00:05, 29.43it/s]Batches:  66%|██████▌   | 327/497 [00:35<00:05, 29.92it/s]Batches:  67%|██████▋   | 331/497 [00:35<00:05, 30.60it/s]Batches:  67%|██████▋   | 335/497 [00:35<00:05, 31.68it/s]Batches:  68%|██████▊   | 339/497 [00:35<00:04, 32.24it/s]Batches:  69%|██████▉   | 343/497 [00:35<00:04, 32.08it/s]Batches:  70%|██████▉   | 347/497 [00:35<00:04, 31.50it/s]Batches:  71%|███████   | 351/497 [00:35<00:04, 32.14it/s]Batches:  71%|███████▏  | 355/497 [00:36<00:04, 32.89it/s]Batches:  72%|███████▏  | 359/497 [00:36<00:04, 32.95it/s]Batches:  73%|███████▎  | 363/497 [00:36<00:04, 33.24it/s]Batches:  74%|███████▍  | 367/497 [00:36<00:03, 34.05it/s]Batches:  75%|███████▍  | 371/497 [00:36<00:03, 34.35it/s]Batches:  75%|███████▌  | 375/497 [00:36<00:03, 34.82it/s]Batches:  76%|███████▋  | 379/497 [00:36<00:03, 36.00it/s]Batches:  77%|███████▋  | 383/497 [00:36<00:03, 36.27it/s]Batches:  78%|███████▊  | 387/497 [00:36<00:02, 36.93it/s]Batches:  79%|███████▊  | 391/497 [00:37<00:03, 34.29it/s]Batches:  79%|███████▉  | 395/497 [00:37<00:03, 32.17it/s]Batches:  80%|████████  | 399/497 [00:37<00:03, 31.59it/s]Batches:  81%|████████  | 403/497 [00:37<00:03, 31.19it/s]Batches:  82%|████████▏ | 407/497 [00:37<00:02, 30.82it/s]Batches:  83%|████████▎ | 411/497 [00:37<00:03, 24.79it/s]Batches:  84%|████████▎ | 415/497 [00:38<00:03, 26.59it/s]Batches:  84%|████████▍ | 419/497 [00:38<00:02, 28.32it/s]Batches:  85%|████████▌ | 423/497 [00:38<00:02, 30.11it/s]Batches:  86%|████████▌ | 427/497 [00:38<00:02, 31.43it/s]Batches:  87%|████████▋ | 431/497 [00:38<00:02, 31.81it/s]Batches:  88%|████████▊ | 435/497 [00:38<00:01, 32.41it/s]Batches:  88%|████████▊ | 439/497 [00:38<00:01, 32.89it/s]Batches:  89%|████████▉ | 443/497 [00:38<00:01, 33.18it/s]Batches:  90%|████████▉ | 447/497 [00:38<00:01, 34.43it/s]Batches:  91%|█████████ | 451/497 [00:39<00:01, 35.09it/s]Batches:  92%|█████████▏| 455/497 [00:39<00:01, 36.03it/s]Batches:  92%|█████████▏| 459/497 [00:39<00:01, 36.43it/s]Batches:  93%|█████████▎| 463/497 [00:39<00:00, 37.04it/s]Batches:  94%|█████████▍| 467/497 [00:39<00:00, 37.09it/s]Batches:  95%|█████████▍| 471/497 [00:39<00:00, 37.65it/s]Batches:  96%|█████████▌| 476/497 [00:39<00:00, 39.22it/s]Batches:  97%|█████████▋| 481/497 [00:39<00:00, 40.20it/s]Batches:  98%|█████████▊| 486/497 [00:39<00:00, 41.59it/s]Batches:  99%|█████████▉| 491/497 [00:40<00:00, 42.54it/s]Batches: 100%|█████████▉| 496/497 [00:40<00:00, 44.53it/s]Batches: 100%|██████████| 497/497 [00:40<00:00, 12.38it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8037.76it/s]
+Batches:   0%|          | 0/125 [00:00<?, ?it/s]Batches:   1%|          | 1/125 [00:00<01:03,  1.94it/s]Batches:   2%|▏         | 2/125 [00:00<00:51,  2.38it/s]Batches:   2%|▏         | 3/125 [00:01<00:44,  2.74it/s]Batches:   3%|▎         | 4/125 [00:01<00:38,  3.17it/s]Batches:   4%|▍         | 5/125 [00:01<00:33,  3.53it/s]Batches:   5%|▍         | 6/125 [00:01<00:30,  3.91it/s]Batches:   6%|▌         | 7/125 [00:02<00:27,  4.30it/s]Batches:   6%|▋         | 8/125 [00:02<00:24,  4.77it/s]Batches:   7%|▋         | 9/125 [00:02<00:22,  5.18it/s]Batches:   8%|▊         | 10/125 [00:02<00:20,  5.66it/s]Batches:   9%|▉         | 11/125 [00:02<00:19,  5.94it/s]Batches:  10%|▉         | 12/125 [00:02<00:17,  6.45it/s]Batches:  10%|█         | 13/125 [00:02<00:16,  6.99it/s]Batches:  11%|█         | 14/125 [00:03<00:16,  6.62it/s]Batches:  12%|█▏        | 15/125 [00:03<00:15,  7.17it/s]Batches:  13%|█▎        | 16/125 [00:03<00:14,  7.55it/s]Batches:  14%|█▎        | 17/125 [00:03<00:13,  8.09it/s]Batches:  14%|█▍        | 18/125 [00:03<00:12,  8.26it/s]Batches:  15%|█▌        | 19/125 [00:03<00:12,  8.50it/s]Batches:  16%|█▌        | 20/125 [00:03<00:11,  8.86it/s]Batches:  18%|█▊        | 22/125 [00:03<00:10,  9.92it/s]Batches:  18%|█▊        | 23/125 [00:03<00:10,  9.82it/s]Batches:  20%|██        | 25/125 [00:04<00:09, 10.46it/s]Batches:  22%|██▏       | 27/125 [00:04<00:08, 11.38it/s]Batches:  23%|██▎       | 29/125 [00:04<00:07, 12.29it/s]Batches:  25%|██▍       | 31/125 [00:04<00:07, 12.27it/s]Batches:  26%|██▋       | 33/125 [00:04<00:07, 13.00it/s]Batches:  28%|██▊       | 35/125 [00:04<00:06, 13.66it/s]Batches:  30%|██▉       | 37/125 [00:04<00:06, 14.47it/s]Batches:  31%|███       | 39/125 [00:05<00:05, 14.98it/s]Batches:  33%|███▎      | 41/125 [00:05<00:05, 15.66it/s]Batches:  34%|███▍      | 43/125 [00:05<00:05, 16.18it/s]Batches:  36%|███▌      | 45/125 [00:05<00:04, 16.96it/s]Batches:  38%|███▊      | 47/125 [00:05<00:04, 17.57it/s]Batches:  39%|███▉      | 49/125 [00:05<00:04, 17.85it/s]Batches:  42%|████▏     | 52/125 [00:05<00:03, 19.09it/s]Batches:  44%|████▍     | 55/125 [00:05<00:03, 19.93it/s]Batches:  46%|████▋     | 58/125 [00:06<00:03, 20.72it/s]Batches:  49%|████▉     | 61/125 [00:06<00:02, 21.79it/s]Batches:  51%|█████     | 64/125 [00:06<00:02, 22.86it/s]Batches:  54%|█████▎    | 67/125 [00:06<00:02, 23.40it/s]Batches:  56%|█████▌    | 70/125 [00:06<00:02, 24.24it/s]Batches:  58%|█████▊    | 73/125 [00:06<00:02, 24.76it/s]Batches:  61%|██████    | 76/125 [00:06<00:01, 24.75it/s]Batches:  63%|██████▎   | 79/125 [00:06<00:01, 23.77it/s]Batches:  66%|██████▌   | 82/125 [00:07<00:01, 24.38it/s]Batches:  69%|██████▉   | 86/125 [00:07<00:01, 27.08it/s]Batches:  71%|███████   | 89/125 [00:07<00:01, 27.63it/s]Batches:  74%|███████▎  | 92/125 [00:07<00:01, 28.25it/s]Batches:  77%|███████▋  | 96/125 [00:07<00:00, 30.29it/s]Batches:  80%|████████  | 100/125 [00:07<00:00, 30.96it/s]Batches:  83%|████████▎ | 104/125 [00:07<00:00, 31.70it/s]Batches:  86%|████████▋ | 108/125 [00:07<00:00, 33.03it/s]Batches:  90%|████████▉ | 112/125 [00:07<00:00, 34.87it/s]Batches:  94%|█████████▎| 117/125 [00:08<00:00, 37.48it/s]Batches:  98%|█████████▊| 123/125 [00:08<00:00, 42.52it/s]Batches: 100%|██████████| 125/125 [00:08<00:00, 15.26it/s]
+Majority baseline              test macro-F1 0.0067 (CV 0.0065) 16s
+TF-IDF + NB                    test macro-F1 0.4228 (CV 0.4119) 68s
+{
+  "after_removing_empty_text": 120917,
+  "removed_text_equals_label": 124,
+  "removed_texts_with_tied_labels": 319,
+  "unique_texts_with_more_than_one_label": 657,
+  "rows_removed_by_deduplication": 41293,
+  "categories_merged_into_Other": [
+    "Crow Sightings",
+    "Food Truck Issues",
+    "GIS Issue",
+    "Illicit Discharge (Storm Sewers)",
+    "Open311 API Key Request",
+    "Public Art Maintenance",
+    "Report issues with BIRD scooters",
+    "Report issues with Lime scooters",
+    "Report issues with Veo Scooters",
+    "Smoking Violation",
+    "Taxi Complaints"
+  ],
+  "rows_relabelled_Other": 174,
+  "final_rows": 79500,
+  "final_categories": 56,
+  "near_duplicate_groups": 72412,
+  "largest_group": 331,
+  "rows_in_multi_row_groups": 9616,
+  "train_rows": 63576,
+  "test_rows": 15924,
+  "test_share": 0.2003,
+  "categories_missing_from_test": []
+}
+Majority baseline              loaded from earlier run
+TF-IDF + NB                    loaded from earlier run
+{
+  "after_removing_empty_text": 120917,
+  "removed_text_equals_label": 124,
+  "removed_texts_with_tied_labels": 319,
+  "unique_texts_with_more_than_one_label": 657,
+  "rows_removed_by_deduplication": 41293,
+  "categories_merged_into_Other": [
+    "Crow Sightings",
+    "Food Truck Issues",
+    "GIS Issue",
+    "Illicit Discharge (Storm Sewers)",
+    "Open311 API Key Request",
+    "Public Art Maintenance",
+    "Report issues with BIRD scooters",
+    "Report issues with Lime scooters",
+    "Report issues with Veo Scooters",
+    "Smoking Violation",
+    "Taxi Complaints"
+  ],
+  "rows_relabelled_Other": 174,
+  "final_rows": 79500,
+  "final_categories": 56,
+  "near_duplicate_groups": 72412,
+  "largest_group": 331,
+  "rows_in_multi_row_groups": 9616,
+  "train_rows": 63576,
+  "test_rows": 15924,
+  "test_share": 0.2003,
+  "categories_missing_from_test": []
+}
+Majority baseline              loaded from earlier run
+TF-IDF + NB                    loaded from earlier run
+Fitting 3 folds for each of 2 candidates, totalling 6 fits
+{
+  "after_removing_empty_text": 120917,
+  "removed_text_equals_label": 124,
+  "removed_texts_with_tied_labels": 319,
+  "unique_texts_with_more_than_one_label": 657,
+  "rows_removed_by_deduplication": 41293,
+  "categories_merged_into_Other": [
+    "Crow Sightings",
+    "Food Truck Issues",
+    "GIS Issue",
+    "Illicit Discharge (Storm Sewers)",
+    "Open311 API Key Request",
+    "Public Art Maintenance",
+    "Report issues with BIRD scooters",
+    "Report issues with Lime scooters",
+    "Report issues with Veo Scooters",
+    "Smoking Violation",
+    "Taxi Complaints"
+  ],
+  "rows_relabelled_Other": 174,
+  "final_rows": 79500,
+  "final_categories": 56,
+  "near_duplicate_groups": 72412,
+  "largest_group": 331,
+  "rows_in_multi_row_groups": 9616,
+  "train_rows": 63576,
+  "test_rows": 15924,
+  "test_share": 0.2003,
+  "categories_missing_from_test": []
+}
+Majority baseline              loaded from earlier run
+TF-IDF + NB                    loaded from earlier run
+Fitting 3 folds for each of 2 candidates, totalling 6 fits
+TF-IDF + LinearSVM             test macro-F1 0.4850 (CV 0.4562) 98s
+Fitting 3 folds for each of 2 candidates, totalling 6 fits
+MiniLM + LogReg                test macro-F1 0.4762 (CV 0.4632) 365s
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+TF-IDF + NB (balanced)         test macro-F1 0.4574 (CV 0.4415) 66s
+Fitting 3 folds for each of 2 candidates, totalling 6 fits
+TF-IDF + LinearSVM (balanced)  test macro-F1 0.4969 (CV 0.4886) 105s
+Fitting 3 folds for each of 2 candidates, totalling 6 fits
+MiniLM + LogReg (balanced)     test macro-F1 0.4433 (CV 0.4325) 173s
+Fitting 3 folds for each of 2 candidates, totalling 6 fits
+[CV 1/3] END ........................clf__C=0.1;, score=0.409 total time=  20.8s
+[CV 1/3] END ........................clf__C=0.5;, score=0.459 total time=  23.0s
+[CV 3/3] END ........................clf__C=0.5;, score=0.448 total time=  21.6s
+[CV 2/3] END .............................C=1.0;, score=0.424 total time=  37.7s
+[CV 3/3] END .............................C=1.0;, score=0.420 total time=  43.8s
+[CV 2/3] END ............................C=10.0;, score=0.458 total time= 1.5min
+[CV 1/3] END ...................clf__alpha=0.01;, score=0.433 total time=   8.8s
+[CV 1/3] END ....................clf__alpha=0.1;, score=0.445 total time=  11.1s
+[CV 3/3] END ....................clf__alpha=0.1;, score=0.439 total time=  10.4s
+[CV 2/3] END ....................clf__alpha=1.0;, score=0.396 total time=   9.2s
+[CV 1/3] END ........................clf__C=0.1;, score=0.473 total time=  20.9s
+[CV 1/3] END ........................clf__C=0.5;, score=0.490 total time=  25.8s
+[CV 3/3] END ........................clf__C=0.5;, score=0.484 total time=  21.8s
+[CV 2/3] END .............................C=1.0;, score=0.434 total time=  24.4s
+[CV 1/3] END ............................C=10.0;, score=0.434 total time= 1.0min
+[CV 3/3] END ............................C=10.0;, score=0.429 total time=  37.9s
+[CV 2/3] END ........................clf__C=1.0;, score=0.365 total time= 3.9min
+[CV 3/3] END ........................clf__C=1.0;, score=0.364 total time= 3.9min
+[CV 2/3] END .......................clf__C=10.0;, score=0.444 total time= 7.2min
+[CV 2/3] END ........................clf__C=0.1;, score=0.410 total time=  20.4s
+[CV 3/3] END ........................clf__C=0.1;, score=0.417 total time=  21.1s
+[CV 2/3] END ........................clf__C=0.5;, score=0.462 total time=  23.3s
+[CV 1/3] END .............................C=1.0;, score=0.430 total time=  42.0s
+[CV 1/3] END ............................C=10.0;, score=0.467 total time= 1.4min
+[CV 3/3] END ............................C=10.0;, score=0.465 total time= 1.3min
+[CV 2/3] END ...................clf__alpha=0.01;, score=0.420 total time=   8.4s
+[CV 3/3] END ...................clf__alpha=0.01;, score=0.417 total time=  11.0s
+[CV 2/3] END ....................clf__alpha=0.1;, score=0.441 total time=   9.8s
+[CV 1/3] END ....................clf__alpha=1.0;, score=0.404 total time=   9.8s
+[CV 3/3] END ....................clf__alpha=1.0;, score=0.388 total time=   6.4s
+[CV 2/3] END ........................clf__C=0.1;, score=0.474 total time=  20.6s
+[CV 3/3] END ........................clf__C=0.1;, score=0.465 total time=  23.7s
+[CV 2/3] END ........................clf__C=0.5;, score=0.492 total time=  22.6s
+[CV 1/3] END .............................C=1.0;, score=0.433 total time=  20.1s
+[CV 3/3] END .............................C=1.0;, score=0.431 total time=  22.4s
+[CV 2/3] END ............................C=10.0;, score=0.427 total time= 1.0min
+[CV 1/3] END ........................clf__C=1.0;, score=0.370 total time= 4.0min
+[CV 1/3] END .......................clf__C=10.0;, score=0.440 total time= 6.4min
+[CV 3/3] END .......................clf__C=10.0;, score=0.436 total time= 5.8min
+TF-IDF + LogReg                test macro-F1 0.4606 (CV 0.4401) 1444s
+Fitting 3 folds for each of 2 candidates, totalling 6 fits
+TF-IDF + LogReg (balanced)     test macro-F1 0.4986 (CV 0.4870) 710s
+[CV 1/3] END ........................clf__C=1.0;, score=0.486 total time= 1.7min
+[CV 3/3] END ........................clf__C=1.0;, score=0.477 total time= 1.6min
+[CV 2/3] END .......................clf__C=10.0;, score=0.487 total time= 3.4min
+                        model  cv_macro_f1            best_params  accuracy  macro_precision  macro_recall  macro_f1  weighted_f1  fit_seconds  macro_f1_ci_low  macro_f1_ci_high
+            Majority baseline       0.0065                     {}    0.2313           0.0041        0.0179    0.0067       0.0869         16.3           0.0064            0.0071
+                  TF-IDF + NB       0.4119 {"clf__alpha": "0.01"}    0.6659           0.5118        0.4068    0.4228       0.6574         68.4           0.4112            0.4322
+           TF-IDF + LinearSVM       0.4562      {"clf__C": "0.5"}    0.7065           0.5898        0.4674    0.4850       0.6892         98.5           0.4687            0.4965
+              MiniLM + LogReg       0.4632          {"C": "10.0"}    0.6794           0.5126        0.4660    0.4762       0.6684        365.2           0.4609            0.4882
+       TF-IDF + NB (balanced)       0.4415  {"clf__alpha": "0.1"}    0.6158           0.4360        0.5183    0.4574       0.6277         66.5           0.4431            0.4693
+TF-IDF + LinearSVM (balanced)       0.4886      {"clf__C": "0.5"}    0.6939           0.4817        0.5397    0.4969       0.6898        105.2           0.4833            0.5083
+   MiniLM + LogReg (balanced)       0.4325           {"C": "1.0"}    0.5963           0.4151        0.5522    0.4433       0.6104        173.1           0.4322            0.4526
+              TF-IDF + LogReg       0.4401     {"clf__C": "10.0"}    0.6952           0.5728        0.4340    0.4606       0.6826       1443.9           0.4456            0.4722
+   TF-IDF + LogReg (balanced)       0.4870     {"clf__C": "10.0"}    0.6853           0.5013        0.5168    0.4986       0.6866        709.8           0.4843            0.5096
+[CV 2/3] END ........................clf__C=1.0;, score=0.479 total time= 1.8min
+[CV 1/3] END .......................clf__C=10.0;, score=0.488 total time= 2.9min
+[CV 3/3] END .......................clf__C=10.0;, score=0.485 total time= 2.8min

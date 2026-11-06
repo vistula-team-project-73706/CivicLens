@@ -1,0 +1,7 @@
+comparison,delta_macro_f1,ci_low,ci_high,p
+TF-IDF + LinearSVM - TF-IDF + NB,0.0622,0.0493,0.0738,0.0
+TF-IDF + LinearSVM - MiniLM + LogReg,0.0087,-0.0057,0.0231,0.234
+TF-IDF + LinearSVM (balanced) - MiniLM + LogReg,0.0207,0.0078,0.0347,0.005
+TF-IDF + LinearSVM (balanced) - TF-IDF + NB (balanced),0.0394,0.0294,0.0503,0.0
+TF-IDF + LogReg - TF-IDF + NB,0.0378,0.0255,0.0492,0.0
+MiniLM + LogReg - TF-IDF + NB,0.0534,0.038,0.068,0.0

@@ -1,0 +1,1 @@
+{"model": "MiniLM + LogReg", "cv_macro_f1": 0.4632, "best_params": "{\"C\": \"10.0\"}", "accuracy": 0.6794, "macro_precision": 0.5126, "macro_recall": 0.466, "macro_f1": 0.4762, "weighted_f1": 0.6684, "fit_seconds": 365.2}

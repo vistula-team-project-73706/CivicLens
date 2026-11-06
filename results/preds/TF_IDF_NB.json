@@ -1,0 +1,1 @@
+{"model": "TF-IDF + NB", "cv_macro_f1": 0.4119, "best_params": "{\"clf__alpha\": \"0.01\"}", "accuracy": 0.6659, "macro_precision": 0.5118, "macro_recall": 0.4068, "macro_f1": 0.4228, "weighted_f1": 0.6574, "fit_seconds": 68.4}

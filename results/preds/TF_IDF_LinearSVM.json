@@ -1,0 +1,1 @@
+{"model": "TF-IDF + LinearSVM", "cv_macro_f1": 0.4562, "best_params": "{\"clf__C\": \"0.5\"}", "accuracy": 0.7065, "macro_precision": 0.5898, "macro_recall": 0.4674, "macro_f1": 0.485, "weighted_f1": 0.6892, "fit_seconds": 98.5}

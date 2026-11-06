@@ -1,0 +1,13 @@
+{
+  "csv_sha256": "802e12249d4e088f3efc813378dd9e1fe126733945ccc2c1b1f814eb1354cc97",
+  "csv_modified": "2026-11-05 07:16",
+  "python": "3.13.16",
+  "pandas": "2.2.3",
+  "numpy": "2.4.6",
+  "scikit_learn": "1.6.1",
+  "seed": 42,
+  "n_boot": 2000,
+  "cv_folds": 3,
+  "script_version": "v3",
+  "sentence_transformers": "5.7.0"
+}

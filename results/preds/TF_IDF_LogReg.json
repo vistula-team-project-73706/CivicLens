@@ -1,0 +1,1 @@
+{"model": "TF-IDF + LogReg", "cv_macro_f1": 0.4401, "best_params": "{\"clf__C\": \"10.0\"}", "accuracy": 0.6952, "macro_precision": 0.5728, "macro_recall": 0.434, "macro_f1": 0.4606, "weighted_f1": 0.6826, "fit_seconds": 1443.9}

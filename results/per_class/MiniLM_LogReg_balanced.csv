@@ -1,0 +1,60 @@
+,precision,recall,f1-score,support
+Abandoned Vehicle,0.4301,0.7619,0.5498,105.0
+Accessibility Problem,0.0673,0.3182,0.1111,22.0
+Animal Control & Neglected Pets,0.6359,0.7005,0.6667,187.0
+Biking & Walking,0.2857,0.3333,0.3077,156.0
+Blocked Sidewalk,0.484,0.4809,0.4824,314.0
+Blocked Street,0.3889,0.274,0.3215,281.0
+Bus Services (Bloomington Transit),0.2143,0.75,0.3333,16.0
+Business,0.1552,0.551,0.2422,49.0
+City Construction Projects,0.0896,0.1935,0.1224,62.0
+City Performance,0.2926,0.3702,0.3268,181.0
+"Debris Removal (Sand, General Street Debris)",0.1453,0.2865,0.1928,178.0
+Drainage or Runoff,0.3138,0.513,0.3894,115.0
+Excessive Growth,0.7692,0.6058,0.6778,1507.0
+Fire Hazards,0.28,0.7119,0.4019,59.0
+Graffiti,0.675,0.7988,0.7317,169.0
+Inaccessible Parking,0.1538,0.3871,0.2202,31.0
+Leaf Collection,0.2542,0.6818,0.3704,22.0
+Line of Sight,0.4534,0.5989,0.5161,187.0
+Nuisance Lights,0.3523,0.5849,0.4397,53.0
+Other,0.5255,0.0773,0.1347,932.0
+Parking Garages,0.1224,0.75,0.2105,8.0
+Parking Meters and Citations,0.4681,0.541,0.5019,122.0
+Parking Permits,0.1881,0.5429,0.2794,35.0
+Parking on Unimproved Surface,0.7342,0.7404,0.7373,235.0
+Parks & Playgrounds,0.5805,0.4952,0.5345,313.0
+Parks & Rec Buildings,0.1379,0.4211,0.2078,38.0
+Parks & Rec Programs,0.1585,0.3611,0.2203,36.0
+"Potholes, Other Street Repair",0.9528,0.7887,0.863,1358.0
+Recycling,0.7577,0.8233,0.7892,832.0
+Request a new Street Light,0.1604,0.5484,0.2482,31.0
+"Scooters, Bike-share and Related Issues",0.4659,0.9111,0.6165,45.0
+Sewer Problems (Sanitary Sewers),0.7819,0.7724,0.7771,246.0
+Sewer Problems (Storm Sewers),0.3822,0.5769,0.4598,104.0
+Sidewalk & Curb Complaints,0.4475,0.3127,0.3682,259.0
+Sidewalk Requests,0.2177,0.4655,0.2967,58.0
+Sidewalk Snow Removal,0.5541,0.3534,0.4316,348.0
+Street & Traffic Signs,0.4265,0.4455,0.4358,202.0
+Street Lights,0.8287,0.6891,0.7525,386.0
+Street Snow Removal,0.5039,0.6952,0.5843,187.0
+Street Trees,0.3185,0.7167,0.441,120.0
+Temporary Signage w/o permit,0.8891,0.9263,0.9073,502.0
+Traffic Related Complaints,0.3862,0.2179,0.2786,257.0
+Traffic Signals,0.6378,0.6953,0.6653,233.0
+Traffic Suggestions,0.2864,0.4914,0.3619,116.0
+Trails,0.6268,0.5955,0.6107,220.0
+Trash,0.8855,0.6425,0.7447,3684.0
+Unsafe Buildings,0.3065,0.6299,0.4124,127.0
+Utilities Construction,0.0541,0.25,0.0889,24.0
+Utilities Yardwork,0.0096,0.1,0.0175,10.0
+Utility Construction Projects,0.1087,0.4,0.1709,25.0
+Water Quality,0.6885,0.7326,0.7099,172.0
+Water Utility Billing Problems,0.6239,0.9577,0.7556,71.0
+Water Utility Problems,0.6828,0.6046,0.6413,349.0
+Website & Web Services Feedback,0.4187,0.5629,0.4802,151.0
+Wildlife Conflict,0.1279,0.4074,0.1947,27.0
+Yard Waste,0.3585,0.7766,0.4905,367.0
+accuracy,0.5963,0.5963,0.5963,0.5963
+macro avg,0.4151,0.5522,0.4433,15924.0
+weighted avg,0.6743,0.5963,0.6104,15924.0

@@ -1,0 +1,21 @@
+{
+  "rows": 130228,
+  "missing_or_empty_description": 9301,
+  "missing_label": 0,
+  "n_categories_raw": 67,
+  "top10_categories": {
+    "Trash": 43860,
+    "Recycling": 19215,
+    "Excessive Growth": 9846,
+    "Potholes, Other Street Repair": 7289,
+    "Other": 5010,
+    "Yard Waste": 4763,
+    "Temporary Signage w/o permit": 2639,
+    "Sidewalk Snow Removal": 2310,
+    "Street Lights": 2223,
+    "Water Utility Problems": 2126
+  },
+  "most_repeated_description": "Recyclable items not properly sorted. Must be sorted for pick-up 945 las",
+  "most_repeated_description_count": 2938,
+  "rows_whose_text_is_repeated": 43877
+}

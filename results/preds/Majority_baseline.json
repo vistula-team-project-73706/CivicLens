@@ -1,0 +1,1 @@
+{"model": "Majority baseline", "cv_macro_f1": 0.0065, "best_params": "{}", "accuracy": 0.2313, "macro_precision": 0.0041, "macro_recall": 0.0179, "macro_f1": 0.0067, "weighted_f1": 0.0869, "fit_seconds": 16.3}

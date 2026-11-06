@@ -1,0 +1,5 @@
+model,mean_dF1_smaller_half,mean_dF1_larger_half,n_smaller,n_larger
+TF-IDF + NB,0.08,-0.0107,28,28
+TF-IDF + LogReg,0.0726,0.0035,28,28
+TF-IDF + LinearSVM,0.0263,-0.0024,28,28
+MiniLM + LogReg,-0.0238,-0.042,28,28
